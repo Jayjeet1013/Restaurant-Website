@@ -3,13 +3,20 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-  <div className='flex justify-between'>
+    <div className=''>
+  <div className='flex justify-between '>
     <div>
       GERICHT
     </div>
 
     <div className='flex'>
-Home
+<ul className='flex justify-between '>
+  <li>HOme</li>
+  <li>Pages</li>
+  <li>Contact Us</li>
+  <li>Blog</li>
+  <li>Landing</li>
+</ul>
     </div>
 
 
@@ -17,7 +24,7 @@ Home
       Login
     </div>
   </div>
-
+</div>
   )
 }
 
